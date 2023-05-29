@@ -1209,6 +1209,9 @@ input[type=number]::-webkit-outer-spin-button {
     .why-us-inside{padding:60px 20px 60px 20px;}
     .col-lg-6.pt-4.pt-lg-0.content.d-flex.flex-column.justify-content-center.order-1-1.aos-init.aos-animate{width:60%;}
     .col-lg-4.order-2-2.aos-init.aos-animate{width: 40%;}
+    .enquire-box {
+      padding: 4rem;
+    }
 }
 
 @media (max-width: 1366px) {
@@ -1235,7 +1238,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 
-@media (max-width: 1250px) {
+@media (min-width: 1250px) {
     #hero h1{font-size: 32px;line-height: 40px;} 
     #hero h2{font-size: 21px;} 
     #hero ul{max-width: 430px;}
