@@ -682,6 +682,10 @@ section {
 /*--------------------------------------------------------------
 # Recent Blog Posts
 --------------------------------------------------------------*/
+.fluid-img {
+  width: 100%;
+  height: auto;
+}
 .recent-blog-posts .post-box {
   transition: 0.3s;
   height: 100%;
