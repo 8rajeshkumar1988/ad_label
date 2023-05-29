@@ -21,7 +21,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover { 
   color: #73c5eb;
   text-decoration: none;
 }
@@ -82,6 +82,7 @@ p{
 --------------------------------------------------------------*/
 #header.fixed-top {
   position: absolute;
+  padding-left: 0px;
 }
 #header {
   transition: all 0.5s;
@@ -104,6 +105,7 @@ p{
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
+  ;
 }
 
 #header .logo a {
@@ -111,7 +113,9 @@ p{
 }
 
 #header .logo img {
-  max-height: 88px;
+  max-width: 100%;
+  height: 4rem;
+  padding: 1rem 0rem 0px 4rem;
 }
 
 .m-hero-slider{
@@ -129,10 +133,13 @@ p{
     overflow: inherit;
 }
 
-#hero .container {
+#hero {
   padding-top: 72px;
 }
-
+.container-hero{
+  padding: 4rem 4rem 8rem 4rem;
+  width: 97%;
+}
 #hero h1 {
   margin: 80px 0 10px 0;
   font-size: 44px;
@@ -304,8 +311,8 @@ p{
 
 @media (max-width: 1480px) {
     #hero h1 {
-        font-size: 34px;
-        line-height: 44px;
+        font-size: 30px;
+        line-height: 1.2;
         margin: 0 0 10px 0;
     }
     #hero h2 {
@@ -743,7 +750,7 @@ section {
 
 .recent-blog-posts .post-box .btn-inquire-now{border-radius: 0 0 10px 10px;}
 
-.section-header  {max-width: 520px;margin-bottom: 60px;}
+.section-header  {max-width: 520px;margin-bottom: 60px;padding: 4rem;}
 
 .inquire-box .col-lg-4{margin-bottom: 40px;}
 
@@ -843,9 +850,10 @@ table th {
 .contact .php-email-form {
   padding: 30px;
   background: #fff;
-  width: 100%;
+  width: 95%;
+  margin-top: 2rem;
   box-shadow: 0px 14px 27px #00000017;
-  border-radius: 13px;
+  border-radius: 10px;
   
 }
 
@@ -875,14 +883,14 @@ button.btn-close {
 }
 
 .contact p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
 label {
     display: inline-block;
     color: #292929;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 4px;
 }
 
@@ -903,18 +911,22 @@ label {
   padding: 15px;
   font-weight: 600;
 }
-
-.contact .php-email-form .form-group {
-  margin-bottom: 15px;
+.form-head {
+  margin-bottom: 0px;
 }
+.contact .php-email-form .form-group {
+  margin-bottom: 13px;
+}
+
+
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 13px;
   border: 0.25px solid #62777D;
-  border-radius: 8px;
+  border-radius: 5px;
   padding: 8px .75rem 7px;    
   height: 30px;
 }
@@ -1162,12 +1174,13 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
-
+.contact .php-email-form input
 .form-select {
     box-shadow: none !important;
     border-color: #62777D ;
     height: 30px;
     padding: 4px;
+    font-size: 13px;
 }
 
 @media (max-width: 768px) {
@@ -1201,7 +1214,7 @@ input[type=number]::-webkit-outer-spin-button {
 @media (max-width: 1366px) {
     .dol-max .content h3{font-size: 30px;margin-bottom: 20px;}
     .h2, h2 {font-size: 30px;}
-    .contact h3 {font-size: 30px;}
+    .contact h3 {font-size: 25px;}
     .btn-inquire-now{font-size: 18px;padding: 14px 30px;}
 }
 
@@ -1348,11 +1361,11 @@ input[type=number]::-webkit-outer-spin-button {
 	}
 
 	#header .logo img {
-		max-width: 107px;
+		height: 4rem;
 	}
 
 	#hero .container {
-		padding-top: 10px;
+		/* padding-top: 10px; */
 	}
 
 	#hero ul li p {
