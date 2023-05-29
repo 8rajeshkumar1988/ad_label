@@ -1530,7 +1530,7 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 4rem 2rem 4rem 2rem;
     height: 1677px;
   }
-  .section-header  {max-width: 520px;margin-bottom: 30px;padding:0 0 0 2rem; margin-top: 930px;}
+  .section-header  {max-width: 520px;margin-bottom: 30px;padding:0 2rem 0 2rem; margin-top: 930px;}
   .enquire-box {
     padding: 2rem;
   }
