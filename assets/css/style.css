@@ -138,7 +138,7 @@ p{
 }
 .container-hero{
   padding: 4rem 4rem 8rem 4rem;
-  width: 97%;
+  width: 100%;
 }
 #hero h1 {
   margin: 80px 0 10px 0;
@@ -746,11 +746,17 @@ section {
 .recent-blog-posts .post-box:hover .post-img img {
   transform: scale(1.1);
 }
-
+@media screen and (min-width: 2560px) {
+  .section-header {
+    max-width: 800px;
+    margin-bottom: 60px;
+    padding: 4rem;
+}
+}
 
 .recent-blog-posts .post-box .btn-inquire-now{border-radius: 0 0 10px 10px;}
 
-.section-header  {max-width: 520px;margin-bottom: 60px;padding: 4rem;}
+.section-header  {max-width: 800px;margin-bottom: 60px;padding: 4rem;}
 
 .inquire-box .col-lg-4{margin-bottom: 40px;}
 
@@ -1048,7 +1054,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 #footer .footer-top {
-  padding: 60px 0 30px 0;
+  padding: 60px 4rem 30px 4rem;
   background: #1A1A1A;
 }
 
@@ -1219,6 +1225,8 @@ input[type=number]::-webkit-outer-spin-button {
     .h2, h2 {font-size: 30px;}
     .contact h3 {font-size: 25px;}
     .btn-inquire-now{font-size: 18px;padding: 14px 30px;}
+    
+    
 }
 
 @media (max-width: 1300px) {
@@ -1463,6 +1471,16 @@ input[type=number]::-webkit-outer-spin-button {
   .enquire-box {
     padding: 2rem;
   }
+  .modal-content .contact .php-email-form {
+    padding: 30px;
+  }
+  #footer .footer-middle {
+    padding: 0 2rem 0 2rem;
+  }
+  .contact .php-email-form {
+    padding: 2rem;
+  }
+
 
 }
 
