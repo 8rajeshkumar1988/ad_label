@@ -1192,6 +1192,12 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 4px;
     font-size: 13px;
 }
+#form-m-select {
+  height: 30px;
+  padding: 4px 4px 4px 9px;
+  font-size: 13px;
+
+}
 
 @media (max-width: 768px) {
   #footer .footer-bottom {
