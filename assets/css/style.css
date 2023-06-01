@@ -161,6 +161,25 @@ p{
 .align-items-center-hero{
     align-items: center;
 }
+
+/* arrow */
+.arrow path {
+  fill: white;
+}
+.arrow{
+background-position: 9px;
+background-image: url(../img/arrow.svg);
+height: 32px;
+background-repeat: no-repeat;
+width: 15%;
+fill: white;
+background-size: contain;
+filter: invert();
+}
+.span {
+  height: 51px;
+}
+
 @media (max-width: 1366px) {
 #hero {
     width: 100%;
@@ -558,6 +577,7 @@ section {
     text-align: center;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 .btn-inquire-now:hover {
     color: #fff;
@@ -569,13 +589,13 @@ section {
   letter-spacing: 1px;
 }
 
-.btn-inquire-now i {
+.btn-inquire-now .arrow {
   margin-left: 5px;
   font-size: 24px;
   transition: 0.3s;
 }
 
-.btn-inquire-now:hover i {
+.btn-inquire-now:hover .arrow {
   transform: translateX(5px);
 }
 .slideanimdata.mobile-box{display: none;}
